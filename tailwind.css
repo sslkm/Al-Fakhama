@@ -1,0 +1,48 @@
+/* استدعاء خط كايرو من جوجل */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --luxury-dark: #121212; /* أسود أعمق للفخامة */
+    --gold: #FFD700;        /* اللون الذهبي الأصلي */
+    --gold-dim: #B8860B;    /* ذهبي خافت للتأثيرات */
+  }
+
+  body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background-color: var(--luxury-dark);
+    color: var(--gold);
+    @apply antialiased; /* لجعل الخط أكثر نعومة على شاشات الجوال */
+  }
+}
+
+/* تأثيرات فخمة إضافية للبطاقات والأزرار */
+@layer components {
+  .gold-gradient {
+    background: linear-gradient(135deg, #FFD700 0%, #B8860B 100%);
+  }
+  
+  .luxury-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+  }
+}
+
+/* تخصيص شريط التمرير ليناسب الثيم المظلم */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD700;
+  border-radius: 10px;
+}

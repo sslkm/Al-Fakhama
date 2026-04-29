@@ -1,0 +1,37 @@
+{
+  "common": {
+    "add_to_cart": "أضف للسلة",
+    "checkout": "إتمام الشراء",
+    "search": "بحث عن منتج...",
+    "save": "حفظ التغييرات",
+    "cancel": "إلغاء"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "age_gate_title": "تأكيد العمر",
+    "age_gate_desc": "هذا الموقع يحتوي على منتجات مخصصة لمن هم فوق 18 عاماً فقط. هل تبلغ من العمر 18 عاماً أو أكثر؟",
+    "confirm_age": "نعم، عمري +18",
+    "exit": "خروج"
+  },
+  "shop": {
+    "categories": "الأقسام",
+    "all_products": "كافة المنتجات",
+    "vapes": "فيب (Vapes)",
+    "liquids": "نكهات (E-Liquids)",
+    "accessories": "مستلزمات"
+  },
+  "payment": {
+    "credit_payment": "الدفع عبر حساب الآجل",
+    "upload_receipt": "رفع صورة إيصال الدفع",
+    "credit_limit_exceeded": "عذراً، لقد تجاوزت حد الآجل المسموح به",
+    "order_success": "تم إرسال طلبك بنجاح وسوف يصلك إشعار عبر تلجرام"
+  },
+  "admin": {
+    "dashboard": "لوحة التحكم الإدارية",
+    "inventory": "المخزون",
+    "users": "إدارة العملاء",
+    "set_credit_limit": "تعديل حد الآجل",
+    "reports": "تحميل التقارير (PDF/Excel)",
+    "courier_rating": "تقييم المناديب"
+  }
+}
